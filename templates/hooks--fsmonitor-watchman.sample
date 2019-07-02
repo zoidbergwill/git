@@ -13,8 +13,8 @@ use IPC::Open2;
 # modified since the given time. Paths must be relative to the root of
 # the working tree and separated by a single NUL.
 #
-# To enable this hook, rename this file to "query-watchman" and set
-# 'git config core.fsmonitor .git/hooks/query-watchman'
+# To enable this hook, rename this file to "fsmonitor-watchman" and set
+# 'git config core.fsmonitor .git/hooks/fsmonitor-watchman'
 #
 my ($version, $time) = @ARGV;
 
